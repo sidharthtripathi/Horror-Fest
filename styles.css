@@ -1,0 +1,88 @@
+@font-face {
+  font-family: myhorror;
+  src: url(horror.ttf);
+}
+.screen{
+  background-image: url(test.gif);
+  background-size: contain;
+  display: block;
+  height: 96vh;
+  width: 160vh;
+  margin: auto;
+}
+body{
+  background-color: black;
+}
+
+.navbar{
+  height: 15vh;
+}
+#main_title{
+  padding-top: 15px;
+  padding-left: 15px;
+  display: inline-block;
+  height: 30px;
+  object-fit: contain;
+  
+}
+
+h3{
+  color: white;
+  display: inline-block;
+  width: 40%;
+  margin-left: 50px;
+}
+
+.nav_buttons{
+  margin-left: 45%;
+  vertical-align: center;
+  display: inline-block;
+}
+#title{
+  font-family: myhorror;
+  color: rgba(224, 221, 221, 0.93);
+  font-size: 90px;
+  margin-left: 45px;
+}
+
+#about_fest{
+  margin-left: 45px;
+  width: 30%;
+  color: white;
+  text-shadow: gray -3px 3px 8px;
+}
+
+button{
+  font-family: abouthor;
+  font-size: 16px;
+  margin-left: 8px;
+  color: rgba(224, 221, 221, 0.93);
+  background-color: black;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  text-shadow: gray -2px 2px 8px; 
+}
+
+button:hover{
+  font-size: 15px;
+  color: white;
+}
+
+#booking{
+  border-width: 0.5px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  border-style: solid;
+  border-color: rgba(224, 221, 221, 0.93);
+  box-shadow: 3px 3px 6px;
+  transition: 0.2s;
+}
+
+#booking:hover{
+  box-shadow: 0px 0px 0px;
+  font-size: 15px;
+}
+
